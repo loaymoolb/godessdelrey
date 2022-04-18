@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100vh;    
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+    a:visited {
+        color: black;
+    }
+
+img {
+    max-width: 100%;
+}
+  
+.nav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+  }
+  
+/*  */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: inherit;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 25px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.nav a:hover, .dropdown:hover .dropbtn,.nav a:focus {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*  */
+
+.content {
+    background-color: #ddd;
+    padding: 25px;
+    flex: 1 1 auto;
+}
+  .content div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+a.btn {
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3.5px solid black;
+    border-radius: 10px;
+    background: none;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: black;
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+  }
+
+  a.btn:hover { 
+    background: black;
+    color: white;    
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+    flex-direction: column;    
+  }
+  
+
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 25px;
+    flex: 0 0 auto;
+}
+
+table {
+    width: 100%;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+}
+
+th {
+    background: #333;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+th, td {
+    padding: 5px 0;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+.footer a {
+    text-decoration: underline;
+}
