@@ -1,2 +1,2 @@
 Link:
-loaymoolb.github.io/godessdelrey/
+https://loaymoolb.github.io/godessdelrey/
